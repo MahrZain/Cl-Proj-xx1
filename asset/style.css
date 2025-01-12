@@ -1,0 +1,63 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1; /* just to see the header in contrast */
+}
+
+/* The main header container (split into two halves) */
+.header {
+  display: flex;
+  width: 100%;
+  height: 60px;
+}
+
+/* Left half of the header (orange) */
+.header-left {
+  background-color: #f05d23; 
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  width: 30%; 
+  color: #fff;
+}
+.header-left i {
+  margin-right: 6px;
+  font-size: 1rem; 
+}
+
+
+.header-right {
+  background-color: #00204a; 
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  width: 70%;
+  justify-content: flex-end;
+  color: #fff;
+}
+.header-right i {
+  margin-right: 6px;
+  font-size: 1rem; 
+}
+
+/* Container for social icons */
+.social-icons {
+  margin-left: 20px; /* space between email and icons */
+  display: flex;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 1rem;
+}
+/* Hover effect for social icons */
+.social-icons a:hover {
+  opacity: 0.7;
+}
